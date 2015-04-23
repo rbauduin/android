@@ -21,7 +21,7 @@ BIND_VER=6.0
 BASE_DIR=$PWD
 
 # Find NDK
-if [ -z {$ANDROID_NDK} ]; then
+if [ -z ${ANDROID_NDK} ]; then
     ANDROID_NDK=/opt/android-ndk
     echo "Setting ANDROID_NDK to a default value: $ANDROID_NDK"
 fi
